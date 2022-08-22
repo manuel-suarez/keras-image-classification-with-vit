@@ -19,7 +19,7 @@ print(f"x_test shape: {x_test.shape} - y_test shape: {y_test.shape}")
 learning_rate = 0.001
 weight_decay = 0.0001
 batch_size = 256
-num_epochs = 100
+num_epochs = 300
 image_size = 72  # We'll resize input images to this size
 patch_size = 6  # Size of the patches to be extract from the input images
 num_patches = (image_size // patch_size) ** 2
